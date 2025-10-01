@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monir Hosen | Portfolio</title>
+  <style>
+    /* Global Styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f4f4f9; color: #333; line-height: 1.6; }
+
+    /* Header */
+    header {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; }
+
+    /* Section */
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0077b6;
+    }
+
+    /* Skills */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .skill {
+      background: #caf0f8;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    /* Projects */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .project h3 { margin-bottom: 10px; color: #0077b6; }
+
+    /* Contact */
+    .contact p {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .contact a {
+      color: #0077b6;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .contact a:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media(max-width:600px) {
+      header h1 { font-size: 2rem; }
+      header p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Monir Hosen</h1>
+    <p>CSE Student @ DIU | Aspiring Data Scientist | Coding Enthusiast 💻</p>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Monir, a Computer Science student at Dhaka International University. 
+       I love coding and I'm passionate about Data Science. 
+       I enjoy learning new technologies and building projects that solve real-world problems.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">Python</div>
+      <div class="skill">C / C++</div>
+      <div class="skill">Data Analysis</div>
+      <div class="skill">Machine Learning</div>
+      <div class="skill">HTML / CSS / JS</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Student Management System</h3>
+        <p>A C program to store and manage student records efficiently.</p>
+      </div>
+      <div class="project">
+        <h3>Data Analysis Dashboard</h3>
+        <p>A Python-based dashboard using Pandas and Matplotlib for data visualization.</p>
+      </div>
+      <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>This website you are viewing right now!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:monir@example.com">monir@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Monir Hosen | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
